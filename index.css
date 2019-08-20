@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    width: 700px;
+    margin: auto;
+}
+#time-map {
+    width: 620px;
+    height: 720px;
+    background-color: #ebebeb;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+#timings {
+    position: relative;
+}
+.time {
+    position: absolute;
+    right: 20px;
+    font-size: 10px;
+}
+
+.time:nth-child(odd) {
+    font-weight: bold; 
+}
